@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #e50914;
+}
+
+.controls {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.grid-filmes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #2d2d2d;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #e50914;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    font-size: 0.9em;
+    color: #ccc;
+    margin: 5px 0;
+}
+
+.nota {
+    color: #ffc107;
+    font-weight: bold;
+}
